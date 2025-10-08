@@ -35,7 +35,7 @@ if st.button("Gửi câu hỏi"):
     else:
         st.markdown("⏳ **Đang xử lý...**")
 
-        model = genai.GenerativeModel("gemini-1.5-flash")
+        model = genai.GenerativeModel("gemini-2.5-flash")
         prompt = f"""
         Bạn là trợ lý kiểu NotebookLM.
         Dưới đây là nội dung tài liệu nội bộ:
