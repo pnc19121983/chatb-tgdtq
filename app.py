@@ -4,7 +4,7 @@ from PyPDF2 import PdfReader
 import os
 
 # === Cấu hình Gemini ===
-genai.configure(api_key=st.secrets["GAIzaSyBjzLsVjL4r_M78qBmTuwQ4SogeWRoEElI"])
+genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 
 # === Hàm đọc nội dung từ tất cả PDF/TXT trong thư mục hiện tại ===
 def load_docs_text():
