@@ -68,10 +68,10 @@ def extract_text_from_response(resp):
 # === Mẫu định dạng bắt buộc (nguyên văn theo yêu cầu của bạn) ===
 OUTPUT_TEMPLATE = """Câu trả lời phải ngắn gọn, rõ ràng, theo định dạng chuẩn thống nhất:
 ---
-**📌 Cấp có thẩm quyền:** [Tỉnh/Xã]
-**📄 Căn cứ pháp lý:**
-- [Số văn bản, Điều, Khoản, Điểm, trích nguyên văn nếu cần]
-**✅ Kết luận:**
+**📌 Cấp có thẩm quyền:** [Tỉnh/Xã] \n
+**📄 Căn cứ pháp lý:** \n
+- [Số văn bản, Điều, Khoản, Điểm, trích nguyên văn nếu cần] \n
+**✅ Kết luận:** \n
 - [Khẳng định cấp có thẩm quyền và người đại diện theo văn bản]
 """
 
